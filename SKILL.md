@@ -1,7 +1,7 @@
 ---
 name: fullstack-architect
 description: >-
-  Use this skill when the user wants to add new features, refactor existing code, introduce new libraries, fix bugs, investigate errors, or handle logic vulnerabilities in a greenfield system.
+  Use this skill when the user wants to add new features, refactor existing code, introduce new libraries, fix bugs, investigate errors, review code or architecture, or handle logic vulnerabilities in a greenfield system.
 ---
 
 # Architecture & Development Rules
@@ -22,6 +22,8 @@ description: >-
   读取[references/workflow-feature.md](references/workflow-feature.md)
 - **当任务是 [修复报错]、[排查异常现象]、[处理逻辑漏洞] 时**：
   读取[references/workflow-bugfix.md](references/workflow-bugfix.md)
+- **当任务是 [代码审查]、[架构审查]、[PR Review]、[安全/类型/边界合规性检查] 时**：
+  读取[references/workflow-review.md](references/workflow-review.md)
 
 读取工作流后，若任务涉及 TypeScript/JavaScript 全栈代码，继续读取 [references/typescript-fullstack-constraints.md](references/typescript-fullstack-constraints.md)，并把其中的边界隔离、DTO、运行时校验、SSOT、Result 错误模型和环境变量校验要求纳入预案与实现验收。
 
