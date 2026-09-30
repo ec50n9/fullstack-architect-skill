@@ -1,6 +1,6 @@
 # Bug-Fixing Workflow
 
-当加载本文件时，严禁“头痛医头”给临时补丁，必须通过彻底重构解决问题：
+当加载本文件时，严禁“头痛医头”给临时补丁，必须通过根因修复解决问题（MVP 验证阶段允许「最小根因修复 + `DEBT.md` 登记遗留重构」）：
 若项目是 TypeScript/JavaScript 全栈项目，同时读取 [typescript-fullstack-constraints.md](typescript-fullstack-constraints.md)，并用其中规则判断根因是否来自边界隔离、DTO 泄露、缺少运行时校验、类型异味、错误建模或环境变量读取失控。
 
 ## Step 1: Trace
